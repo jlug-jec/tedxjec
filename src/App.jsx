@@ -1,18 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import Homepage from "./Pages/Homepage";
+import Homepage from "./pages/Homepage";
 import Header from "./components/Header";
-import TicketPage from "./Pages/TicketPage";
+import TicketPage from "./pages/TicketPage";
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
       <Routes>
-        <Route  path="/" element={<Homepage />} ></Route>
-        <Route  path="/ticket" element={<TicketPage />} ></Route>
+        <Route path="/" element={<Homepage />}></Route>
+        <Route path="/ticket" element={<TicketPage />}></Route>
       </Routes>
     </>
-  )
+  );
 }
 
 export default App;

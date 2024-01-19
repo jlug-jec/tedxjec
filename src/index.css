@@ -7,6 +7,7 @@ body {
   color: aliceblue;
   cursor: default;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -18,24 +19,30 @@ body {
 .ticket:hover {
   box-shadow: 0 0 40px red;
 }
+
 .stripe1 {
   transform: rotate(4deg);
 }
+
 .stripe2 {
   transform: rotate(-8deg);
 }
+
 .stripe3 {
   transform: rotate(8deg);
 }
+
 .stripe4 {
   transform: rotate(-3deg);
 }
+
 .cursor {
   filter: blur(80px);
   position: fixed;
   top: 50%;
   left: 50%;
-  z-index: -1; /* Adjust the z-index to position it above other content */
+  z-index: -1;
+  /* Adjust the z-index to position it above other content */
 
   /* Optional: Customize the appearance of the cursor */
   width: 20px;
@@ -51,7 +58,8 @@ body {
   left: 50%;
   width: 10px;
   height: 10px;
-  background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Adjust the color and opacity */
   border-radius: 50%;
   animation: cursorEffect 1s linear infinite;
 }
@@ -61,10 +69,12 @@ body {
     transform: translate(-50%, -50%) scale(1);
     opacity: 0.5;
   }
+
   50% {
     transform: translate(-50%, -50%) scale(2);
     opacity: 0;
   }
+
   100% {
     transform: translate(-50%, -50%) scale(1);
     opacity: 0.5;
@@ -88,18 +98,21 @@ progress::-webkit-progress-bar {
 
 /* Style the progress bar value */
 progress::-webkit-progress-value {
-  background-color: #03ff2d; /* Change this color as needed */
+  background-color: #03ff2d;
+  /* Change this color as needed */
   border-radius: 5px;
 }
 
 /* Style the text inside the progress bar */
 progress::-webkit-progress-value::before {
-  content: "${attr(value)}%"; /* Display the percentage as text */
+  content: "${attr(value)}%";
+  /* Display the percentage as text */
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: #ffffff; /* Change this color as needed */
+  color: #ffffff;
+  /* Change this color as needed */
   font-size: 14px;
 }
 
@@ -113,7 +126,8 @@ progress::-webkit-progress-value::before {
   top: -6px;
   width: 20px;
   height: 20px;
-  background-color: #15ff00; /* Change this color as needed */
+  background-color: #15ff00;
+  /* Change this color as needed */
   border-radius: 50%;
   transform: translateX(-50%);
   transition: left 0.3s ease-in-out;
