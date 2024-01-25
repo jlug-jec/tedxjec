@@ -30,251 +30,254 @@ const Strips = () => {
   return (
     <div className="w-full flex flex-col items-center my-12">
       
-      <div className="h-16 scroll-container stripe1 w-full flex items-center overflow-hidden gap-12 bg-white">
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+      <div className="md:h-16 h-8 scroll-container stripe1 w-full flex items-center overflow-hidden gap-12 bg-white">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track  font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track  font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
       </div>
 
-      <div className="h-16 stripe2 w-full flex items-center justify-start overflow-hidden gap-12 bg-white">
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+      <div className="md:h-16 h-8 stripe2 w-full flex items-center justify-start overflow-hidden gap-12 bg-white">
+      <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track  font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
-          TED<span className=" text-black font-semibold p-1">x</span>JEC
-        </h1>        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track  font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track  font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
+          TED<span className=" text-black font-semibold p-1">x</span>JEC
+        </h1>
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
       </div>   
       
-         <div className="h-16 stripe3 w-full flex items-center justify-start overflow-hidden gap-12 bg-white">
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+         <div className="md:h-16 h-8 stripe3 w-full flex items-center justify-start overflow-hidden gap-12 bg-white">
+         <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track  font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
-          TED<span className=" text-black font-semibold p-1">x</span>JEC
-        </h1>        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track  font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track  font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
+          TED<span className=" text-black font-semibold p-1">x</span>JEC
+        </h1>
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
       </div>
 
-         <div className="h-16 stripe4 w-full flex items-center justify-start overflow-hidden gap-12 bg-white">
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+         <div className="md:h-16 h-8 stripe4 w-full flex items-center justify-start overflow-hidden gap-12 bg-white">
+         <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track  font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
-          TED<span className=" text-black font-semibold p-1">x</span>JEC
-        </h1>        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track  font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track  font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
-        <h1 className="text-5xl slide-track font-bold text-red-600">
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
+          TED<span className=" text-black font-semibold p-1">x</span>JEC
+        </h1>
+        <h1 className="md:text-5xl text-xl slide-track font-bold text-red-600">
           TED<span className=" text-black font-semibold p-1">x</span>JEC
         </h1>
       </div>
