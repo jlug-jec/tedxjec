@@ -9,8 +9,6 @@ const Header = () => {
       </h1> */}
 
       <img src="/logo-white-org.png" alt="tedXjec" className="md:h-28 h-14" />
-
-      <img src="/JLUG.jpeg" alt="jlug" className="md:h-28 h-14 rounded-full" />
     </div>
   );
 };
