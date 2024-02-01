@@ -11,6 +11,7 @@ import Speakers from "../components/Speakers";
 import Crousel from "../components/Crousel";
 import HomePageCarousal from "../components/HomePageCarousal";
 import Header from "../components/Header";
+import Infrormation from "../components/Infrormation";
 // import Test from "../components/test";
 
 const Homepage = () => {
@@ -30,12 +31,12 @@ const Homepage = () => {
           <span className="text-red-600 font-semibold"> Inspiration!"</span>
         </h1>
 
-        {/* <p className="text-center w-1/2 px-12 py-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          maxime non, corrupti doloremque quos laboriosam veritatis quibusdam
-          libero unde veniam, esse neque similique alias officia nihil maiores
-          culpa ipsum minima.
-        </p> */}
+        <h1 className="md:text-4xl text-xl md:px-24 px-4 md:pt-6 pt-2 md:pb-6 pb-2 text-center">
+
+          <span className="text-red-600 font-semibold mt-5">15, 16 </span> February
+          <span className="text-red-600 font-semibold"> 2024!</span>
+
+        </h1>
         {/* <Link to="/ticket"> */}
           <button className="md:py-3 py-1 my-4 md:text-xl text-sm ticket rounded-3xl hover:bg-black  border-red-600 hover: border-2 shadow-red-600 shadow-2xl md:px-12 px-6 bg-red-600">
             Tickets Coming Soon!!!
@@ -52,6 +53,9 @@ const Homepage = () => {
             alt=""
           />
         </div>
+
+        <Infrormation />
+
         <div className="md:my-12 md:py-12 h-[450px] overflow-hidden w-screen">
           <Strips />
         </div>
