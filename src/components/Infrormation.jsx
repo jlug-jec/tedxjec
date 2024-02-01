@@ -8,8 +8,8 @@ const Infrormation = () => {
       <div className="flex justify-between space-y-5 items-center flex-col">
         <img src="/tedx.png" alt="tedXjec" className="md:h-24 h-14" />
         <p className="px-24 text-center font-semibold text-2xl">
-          TEDx is a grassroots initiative, created in the spirit of TED's
-          overall mission to research and discover" ideas worth spreading." TEDx
+          TEDx is a grassroots initiative, created in the spirit of TED&aapos;s
+          overall mission to research and discover&qout; ideas worth spreading.&quot; TEDx
           brings the spirit of TED to local communities around the globe through
           TEDx events. These events are organised by passionate individuals who
           seek to uncover new ideas and to share the latest research in their
@@ -27,7 +27,7 @@ const Infrormation = () => {
           Started in 1984 as a conference where Technology, Entertainment and
           Design converged, and today covers almost all topics from science to
           business to global issues, in more than 100 languages. The two annual
-          TED Conferences invite the world's leading thinkers and doers to speak
+          TED Conferences invite the world&apos;s leading thinkers and doers to speak
           for 18 minutes or less. Meanwhile, independently run TEDx events help
           to share ideas in communities around the world.
         </p>
