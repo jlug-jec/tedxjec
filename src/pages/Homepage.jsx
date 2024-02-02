@@ -7,9 +7,9 @@ import Cursor from "../components/Cursor";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Speakers from "../components/Speakers";
-import Crousel from "../components/Crousel";
-import HomePageCarousal from "../components/HomePageCarousal";
+// import Speakers from "../components/Speakers";
+// import Crousel from "../components/Crousel";
+// import HomePageCarousal from "../components/HomePageCarousal";
 import Header from "../components/Header";
 import Infrormation from "../components/Infrormation";
 // import Test from "../components/test";
@@ -37,11 +37,11 @@ const Homepage = () => {
           <span className="text-red-600 font-semibold"> 2024!</span>
 
         </h1>
-        {/* <Link to="/ticket"> */}
+        <Link to="/ticket">
           <button className="md:py-3 py-1 my-4 md:text-xl text-sm ticket rounded-3xl hover:bg-black  border-red-600 hover: border-2 shadow-red-600 shadow-2xl md:px-12 px-6 bg-red-600">
-            Tickets Coming Soon!!!
+            Tickets Available Now!!!
           </button>
-        {/* </Link> */}
+        </Link>
         <div
           data-aos-anchor-placement="top-center"
           data-aos="fade-up"

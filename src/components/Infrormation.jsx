@@ -2,14 +2,14 @@ const Infrormation = () => {
 	return (
 		<div className='flex justify-between space-y-14 items-center flex-col mt-20'>
 			<div className='bg-red-600 flex justify-center items-center md:h-32 h-14 w-full'>
-				<h1 className='md:text-5xl text-2xl font-extrabold text-white px-8'>
+				<h1 className='md:text-5xl text-2xl font-bold text-white px-8 tracking-widest font-serif'>
 					About Us
 				</h1>
 			</div>
 
 			<div className='flex justify-between space-y-12 items-center flex-col'>
 				<img
-					src='/tedx.png'
+					src='/origi.png'
 					alt='tedXjec'
 					className='md:h-24 h-8 md:m-0 -m-5'
 				/>
