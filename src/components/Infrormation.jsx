@@ -1,8 +1,8 @@
 const Infrormation = () => {
 	return (
 		<div className='flex justify-between space-y-14 items-center flex-col mt-20'>
-			<div className='bg-red-600 flex justify-center items-center h-32 w-full'>
-				<h1 className='text-5xl font-extrabold text-white px-8'>
+			<div className='bg-red-600 flex justify-center items-center md:h-32 h-14 w-full'>
+				<h1 className='md:text-5xl text-2xl font-extrabold text-white px-8'>
 					About Us
 				</h1>
 			</div>
@@ -11,7 +11,7 @@ const Infrormation = () => {
 				<img
 					src='/tedx.png'
 					alt='tedXjec'
-					className='md:h-24 h-10 md:m-0 -m-5'
+					className='md:h-24 h-8 md:m-0 -m-5'
 				/>
 				<p className='text-center font-semibold md:text-2xl text-lg border border-white md:p-8 p-4 md:mx-8 mx-4'>
 					TEDx is a program of independently organized events that
