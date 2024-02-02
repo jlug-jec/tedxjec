@@ -21,32 +21,32 @@ const Navigation = () => {
       <nav className="navigation__nav flex justify-between items-center flex-col">
         <ul className="navigation__list">
           <li className="navigation__item">
-            <a href="#" className="navigation__link md:text-3xl text-sm">
+            <a href="./" className="navigation__link md:text-3xl text-sm">
               <span>01</span>Home
             </a>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link md:text-3xl text-sm">
+            <a href="./" className="navigation__link md:text-3xl text-sm">
               <span>02</span>About Us
             </a>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link md:text-3xl text-sm">
+            <a href="./" className="navigation__link md:text-3xl text-sm">
               <span>03</span>Speakers
             </a>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link md:text-3xl text-sm">
+            <a href="./" className="navigation__link md:text-3xl text-sm">
               <span>04</span>FAQs
             </a>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link md:text-3xl text-sm">
+            <a href="./" className="navigation__link md:text-3xl text-sm">
               <span>05</span>Sponsors
             </a>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link md:text-3xl text-sm">
+            <a href="./" className="navigation__link md:text-3xl text-sm">
               <span>06</span>Book now
             </a>
           </li>

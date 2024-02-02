@@ -15,7 +15,7 @@
   font-weight: normal !important;
   font-variant: normal !important;
   text-transform: none !important;
-  speak: none;
+  /* speak: none; */
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,7 +27,7 @@
   font-weight: normal !important;
   font-variant: normal !important;
   text-transform: none !important;
-  speak: none;
+  /* speak: none; */
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -626,7 +626,7 @@ body {
     to(#a29f9f)
   );
   background-image: linear-gradient(to right, rgb(0, 1, 21), rgb(12, 1, 94));
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   color: transparent;
   letter-spacing: 0.2rem;
   -webkit-transition: all 0.2s;
@@ -1145,7 +1145,7 @@ body {
     to(#28b485)
   );
   background-image: linear-gradient(to right, rgb(0, 1, 21), rgb(12, 1, 94));
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   color: transparent;
 }
 @media only screen and (max-width: 56.25em) {
@@ -1681,7 +1681,7 @@ body {
     right: 3rem;
   }
 }
-navigation__background. {
+.navigation__background {
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
