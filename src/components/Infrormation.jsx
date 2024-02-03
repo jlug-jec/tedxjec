@@ -59,26 +59,16 @@ const Infrormation = () => {
 				/>
 
 				<p className='text-center font-semibold md:text-2xl text-lg border border-white md:p-8 p-4 md:mx-8 mx-4'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Repellat explicabo non maiores blanditiis consectetur,
-					voluptatum distinctio provident quo aliquam necessitatibus
-					cupiditate quia natus soluta et veritatis perspiciatis
-					molestias consequatur unde. Facere, voluptates consequuntur
-					sed accusamus culpa vel. Cumque officiis, ex assumenda error
-					recusandae deleniti ipsum tempore aliquid velit enim optio a
-					aut incidunt, maiores accusamus. Quo, ducimus fugiat.
-					Molestias, hic. Quod ipsam autem facilis expedita distinctio
-					vero sequi velit eaque in, natus, quaerat ipsum nam
-					assumenda maxime et mollitia rem inventore repellat
-					quisquam. Veritatis assumenda eaque quos dolorum sapiente?
-					Quae. Harum, quod blanditiis, recusandae ad incidunt dolorum
-					id repellat quas totam provident illo voluptas cupiditate in
-					soluta. Dolores possimus labore neque, distinctio quis
-					inventore placeat soluta eum aliquam deserunt odio. Odio
-					dolor error, et pariatur repudiandae consequatur consectetur
-					recusandae quo porro rem corrupti, similique ea in eos, nisi
-					totam quibusdam fuga ipsum sed facere quas! Officiis,
-					ducimus! Debitis, officiis nisi!
+					Amidst marble cliffs and the Narmada's flow, Jabalpur shines with natural beauty 
+					and historical grace. With its cascading Dhuandhar Falls, ancient temples, and 
+					colonial remnants, it's a serene blend of the past and nature's wonders. This 
+					city is a peaceful yet vibrant heart of Madhya Pradesh, offering a gateway to the 
+					region's rich wildlife and culture. TEDxJEC is a independently organized TEDx 
+					event held at JEC Jabalpur. It is a platform for spreading ideas, fostering 
+					innovation, inspiring the community through engaging talks and presentations.
+					TEDxJEC is a chance to check out from day-to-day routine go on an intellectual 
+					journey with smart and curious friends to a world filled with brilliant speakers, 
+					captivating performances, amazing new technology, and thought provoking ted talks.
 				</p>
 			</div>
 			<div className='flex justify-between space-y-10 items-center flex-col'>
