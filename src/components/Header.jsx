@@ -8,7 +8,6 @@ const Header = () => {
       {/* <h1 className="text-4xl font-bold text-red-600">
         TED<span className="pb-4 text-white font-light p-1">x</span>JEC
       </h1> */}
-      
 
       <img src="/logo-white-org.png" alt="tedXjec" className="md:h-28 h-14" />
       <Navigation />
