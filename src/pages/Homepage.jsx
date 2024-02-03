@@ -47,7 +47,7 @@ const Homepage = () => {
           data-aos="fade-up"
           className="h-full md:px-44 md:py-12 px-6 py-4 mt-8"
         >
-          <img className="rounded-2xl w-[1800px]" src="./tedpage.png" alt="" />
+          <img className="rounded-2xl w-[1800px]" src="./tedpage.PNG" alt="" />
         </div>
 
         <div className="md:my-12 md:py-12 h-[450px] overflow-hidden w-screen">
