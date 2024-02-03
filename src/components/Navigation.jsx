@@ -26,7 +26,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className="navigation__item">
-            <a href="./" className="navigation__link md:text-3xl text-sm">
+            <a href="./about" className="navigation__link md:text-3xl text-sm">
               <span>02</span>About Us
             </a>
           </li>

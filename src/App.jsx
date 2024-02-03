@@ -7,6 +7,7 @@ import SpeakerPage from "./pages/speakerPages/TanjJain";
 import TanjJain from "./pages/speakerPages/TanjJain";
 import SudhirKumar from "./pages/speakerPages/SudhirKumar";
 import Sampada from "./pages/speakerPages/Sampada";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route  path="/tanujain" element={<TanjJain />} ></Route>
         <Route  path="/sudhir" element={<SudhirKumar />} ></Route>
         <Route  path="/sampada" element={<Sampada />} ></Route>
+        <Route  path="/about" element={<About />} ></Route>
         
         <Route  path="/speaker" element={<SpeakerPage />} ></Route>
       </Routes>
