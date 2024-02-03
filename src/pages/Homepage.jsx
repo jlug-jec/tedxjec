@@ -23,7 +23,7 @@ const Homepage = () => {
   return (
     <>
       <Cursor />
-      <Header/>
+      <Header />
       <div className="h-full w-full flex-col items-center flex justify-center">
         <h1 className="md:text-6xl text-xl md:px-24 px-4 md:pt-24 pt-14 md:pb-6 pb-4 text-center">
           "Empowering Minds, Igniting Ideas: TEDxJEC Where{" "}
@@ -38,6 +38,7 @@ const Homepage = () => {
           culpa ipsum minima.
         </p> */}
         {/* <Link to="/ticket"> */}
+
           <button className="md:py-3 py-1 my-4 md:text-xl text-sm ticket rounded-3xl hover:bg-black  border-red-600 hover: border-2 shadow-red-600 shadow-2xl md:px-12 px-6 bg-red-600">
             Tickets Coming Soon!!!
           </button>
@@ -47,14 +48,8 @@ const Homepage = () => {
           data-aos="fade-up"
           className="h-full md:px-44 md:py-12 px-6 py-4 mt-8"
         >
-          <img
-            className="rounded-2xl w-[1800px]"
-            src="./tedpage.png"
-            alt=""
-          />
+          <img className="rounded-2xl w-[1800px]" src="./tedpage.PNG" alt="" />
         </div>
-
-        <Infrormation />
 
         <div className="md:my-12 md:py-12 h-[450px] overflow-hidden w-screen">
           <Strips />
