@@ -3,7 +3,7 @@ import Homepage from "./pages/Homepage";
 import "./assets/app.css";
 
 // import TicketPage from "./pages/TicketPage";
-import SpeakerPage from "./pages/speakerPages/TanjJain";
+// import SpeakerPage from "./pages/speakerPages/TanjJain";
 import TanjJain from "./pages/speakerPages/TanjJain";
 import SudhirKumar from "./pages/speakerPages/SudhirKumar";
 import Sampada from "./pages/speakerPages/Sampada";
@@ -20,7 +20,7 @@ function App() {
         <Route  path="/sampada" element={<Sampada />} ></Route>
         <Route  path="/about" element={<About />} ></Route>
         
-        <Route  path="/speaker" element={<SpeakerPage />} ></Route>
+        <Route  path="/speaker" element={<TanjJain />} ></Route>
       </Routes>
     </>
   )
