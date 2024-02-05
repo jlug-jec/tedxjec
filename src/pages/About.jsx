@@ -90,30 +90,23 @@ const About = () => {
 					/>
 
 					<p className='text-center font-semibold md:text-2xl text-lg border border-white md:p-8 p-4 md:mx-8 mx-4'>
-						Jabalpur Engineering College (JEC) is a well-known
-						engineering institution located in Jabalpur, Madhya
-						Pradesh, India. Jabalpur Engineering College was
-						established in 1947, making it one of the oldest
-						engineering colleges in India. JEC is affiliated with
-						Rani Durgavati Vishwavidyalaya (RDVV), Jabalpur. RDVV is
-						a prominent university in the region. JEC offers
-						undergraduate and postgraduate programs in various
-						engineering disciplines, including Civil Engineering,
-						Mechanical Engineering, Electrical Engineering,
-						Electronics and Telecommunication Engineering, Computer
-						Science and Engineering, and Information Technology. The
-						college may have received accreditation from relevant
-						authorities. Accreditation ensures that the institution
-						meets certain quality standards in its education and
-						infrastructure. JEC likely has a campus equipped with
-						facilities such as classrooms, laboratories, libraries,
-						hostels, sports facilities, and more. The college has a
-						team of experienced faculty members who contribute to
-						the academic and research activities of the institution.
-						JEC is likely involved in organizing various
-						extracurricular activities, cultural events, and
-						technical fests, providing students with a well-rounded
-						educational experience.
+						Jabalpur Engineering College (JEC) is an institute
+						located in Jabalpur, Madhya Pradesh, India. It is the
+						oldest technical institution in central India and the
+						15th-oldest in India.It is the first institute of India
+						to have started the Electronics & Telecommunication
+						engineering education in the country, and also the last
+						educational institution to be set up by the British in
+						India. JEC offers undergraduate and postgraduate
+						programs in various engineering disciplines.JEC has a
+						campus equipped with facilities such as classrooms,
+						laboratories, libraries, hostels, sports facilities, and
+						more. The college has a team of experienced faculty
+						members who contribute to the academic and research
+						activities of the institution. JEC is likely involved in
+						organizing various extracurricular activities, cultural
+						events, and technical fests, providing students with a
+						well-rounded educational experience.
 					</p>
 				</div>
 			</div>
