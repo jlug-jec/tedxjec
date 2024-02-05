@@ -13,6 +13,7 @@ import HomePageCarousal from "../components/HomePageCarousal";
 import Header from "../components/Header";
 import Infrormation from "../components/Infrormation";
 // import Test from "../components/test";
+import tedPage from './../assets/images/tedpage.png';
 
 const Homepage = () => {
   useEffect(() => {
@@ -54,7 +55,7 @@ const Homepage = () => {
           data-aos="fade-up"
           className="h-full md:px-44 md:py-12 px-6 py-4 mt-8"
         >
-          <img className="rounded-2xl w-[1800px]" src="./tedpage.PNG" alt="" />
+          <img className="rounded-2xl w-[1800px]" src={tedPage} alt="jjj" />
         </div>
 
         <div className="md:my-12 md:py-12 md:h-[450px] h-[200px] overflow-y-hidden w-screen md:mb-0 mb-8">
