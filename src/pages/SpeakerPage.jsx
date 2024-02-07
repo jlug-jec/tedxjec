@@ -26,7 +26,7 @@ const SpeakerPage = ({
 						<p className='text-center text-sm'>{information}</p>
 
 						<button className='py-2 my-4 mx-2 text-xs ticket rounded-3xl hover:bg-black  border-red-600 hover:border-2 shadow-red-600 shadow-2xl px-10 bg-red-600'>
-							Get Your Tickets!
+							!!!Book Now!!!
 						</button>
 					</div>
 				</div>
@@ -76,7 +76,7 @@ const SpeakerPage = ({
 						</p>
 						<Link to='/ticket' className='md:p-5'>
 							<button className='py-3 my-4 text-xl ticket rounded-3xl hover:bg-black  border-red-600 hover: border-2 shadow-red-600 shadow-2xl px-12 bg-red-600'>
-								Get Your Tickets!
+								!!!Book Now!!!
 							</button>
 						</Link>
 					</div>

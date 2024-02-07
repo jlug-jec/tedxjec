@@ -13,7 +13,7 @@ import HomePageCarousal from "../components/HomePageCarousal";
 import Header from "../components/Header";
 import Infrormation from "../components/Infrormation";
 // import Test from "../components/test";
-import tedPage from './../assets/images/tedpage.png';
+import tedPage from "./../assets/images/tedpage.png";
 
 const Homepage = () => {
   useEffect(() => {
@@ -30,11 +30,15 @@ const Homepage = () => {
           "Empowering Minds, Igniting Ideas: TEDxJEC Where{" "}
           <span className="text-red-600 font-semibold">Innovation</span> Meets
           <span className="text-red-600 font-semibold"> Inspiration!"</span>
-        </h1 >
+        </h1>
 
         <h1 className="md:text-4xl text-lg md:px-24 px-4 md:pt-16 pt-10 md:pb-6 pb-4 text-center">
-          See You All On 
-          <span className="text-red-600 font-semibold"> 15th And 16th</span> February
+          See You All On
+          <span className="text-red-600 font-semibold">
+            {" "}
+            15th And 16th
+          </span>{" "}
+          February
           <span className="text-red-600 font-semibold"> 2024!!"</span>
         </h1>
 
@@ -45,9 +49,8 @@ const Homepage = () => {
           culpa ipsum minima.
         </p> */}
         <Link to="/ticket">
-
           <button className="md:py-3 py-1 my-4 md:text-xl text-sm ticket rounded-3xl hover:bg-black  border-red-600 hover: border-2 shadow-red-600 shadow-2xl md:px-12 px-6 bg-red-600">
-            Tickets Coming Soon!!!
+            !!! Book Now !!!
           </button>
         </Link>
         <div
@@ -63,7 +66,7 @@ const Homepage = () => {
         </div>
 
         <div className="w-full">
-        <HomePageCarousal />
+          <HomePageCarousal />
         </div>
       </div>
     </>
