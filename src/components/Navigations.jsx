@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 const Navigation = () => {
   const [flag, setFlag] = useState(true);
 
@@ -31,7 +30,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className="navigation__item">
-            <a href="./" className="navigation__link md:text-3xl text-sm">
+            <a href="./speakers" className="navigation__link md:text-3xl text-sm">
               <span>03</span>Speakers
             </a>
           </li>
@@ -46,7 +45,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className="navigation__item">
-            <a href="./" className="navigation__link md:text-3xl text-sm">
+            <a href="./ticket" className="navigation__link md:text-3xl text-sm">
               <span>06</span>Book now
             </a>
           </li>

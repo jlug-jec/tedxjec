@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Navigation from "./Navigation";
+import Navigation from "./Navigations";
 
 const Header = () => {
   return (
