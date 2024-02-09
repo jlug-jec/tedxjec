@@ -8,13 +8,13 @@ import SpeakerPage from "./pages/SpeakerPage";
 import About from "./pages/About";
 
 const tanuInfo =
-  "The woman is Dr Tanu Jain, who has now left her civil services job. Tanu Jain is a 2015 batch IAS officer. Tanu Jain studied at Cambridge School in Delhi and she grew up in Sadar area of the national capital. It is to be noted that Tanu Jain also studied medicine before cracking UPSC exam and becoming an IAS officer.";
+  "Dr. Tanu Jain, an esteemed 2015 batch IAS officer, has recently resigned from her civil service position. Her educational background includes attending Cambridge School in Delhi and earning a BDS degree from Subharti Medical College, before successfully clearing the UPSC exam. Beyond her administrative duties, Dr. Jain has been active in social service, motivational speaking, and authorship, garnering over 96,000 Instagram followers. Her passion for education led her to open the Tathastu IAS coaching center in Delhi, demonstrating her commitment to mentoring future civil servants.";
 
 const achivementsTanu = [
-  "She is a 2015 batch IAS officer.",
-  "She also studied medicine before cracking UPSC exam.",
-  "She decided to quit her job as an IAS officer and become a full-time teacher.",
-  "She has established IAS coaching named Tathastu-ICS in Delhi.",
+  "Former 2015 batch IAS officer with a medical background.",
+  "Successfully cleared the UPSC exam before venturing into civil services.",
+  "Opted to resign from her IAS position to focus on education.",
+  "Founded Tathastu - ICS in Delhi, an institute dedicated to IAS coaching.",
 ];
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
               achivements={achivementsTanu}
               image="https://tathastuics.com/assets/images/banner-img.png"
               insta="https://www.instagram.com/dr.tanujain/"
-              linked="https://www.linkedin.com/in/dr-tanu-jain-4aa28a131/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
-              tweet="https://twitter.com/DrTanuJain1?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              linked="https://www.linkedin.com/in/dr-tanu-jain-4aa28a131"
+              tweet="https://twitter.com/DrTanuJain1"
             >
               <span>T</span>
               <span>A</span>

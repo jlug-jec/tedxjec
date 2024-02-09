@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Strips from "../components/Strips";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Cursor from "../components/Cursor";
 import { useEffect } from "react";
 import AOS from "aos";
