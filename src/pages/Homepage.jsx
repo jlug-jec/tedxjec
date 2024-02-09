@@ -14,6 +14,7 @@ import Header from "../components/Header";
 import Infrormation from "../components/Infrormation";
 // import Test from "../components/test";
 import tedPage from "./../assets/images/tedpage.png";
+import Theme from "../components/Theme";
 
 const Homepage = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const Homepage = () => {
 
   return (
     <>
+      
       <Cursor />
       <Header />
       <div className="h-full w-full flex-col items-center flex justify-center">
@@ -64,6 +66,8 @@ const Homepage = () => {
         <div className="md:my-12 md:py-12 md:h-[450px] h-[200px] overflow-y-hidden w-screen md:mb-0 mb-8">
           <Strips />
         </div>
+
+        <Theme />
 
         <div className="w-full">
           <HomePageCarousal />
