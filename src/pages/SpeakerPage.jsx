@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Cursor from "./../components/Cursor";
 
 const SpeakerPage = ({
@@ -54,29 +53,25 @@ const SpeakerPage = ({
         </div>
       </div>
 
-      <div className="h-full absolute overflow-hidden w-full justify-center md:flex hidden ">
-        <img
-          className=" absolute z-20 md:translate-y-24 bottom-0 pt-12 md:h-full  w-auto"
-          src={image}
-          alt=""
-        />
-        <div className="h-full w-1/2 bg-black md:block hidden">
-          <div className="overflow-hidden absolute w-full h-auto">
-            <div className="w-full speakername md:top-8 pt-6 text-center md:text-[200px] text-[70px] z-0 font-bold">
-              {children}
-            </div>
-          </div>
-          <div className="flex flex-col md:justify-start">
-            <p className="md:mt-80  md:w-2/3 w-full p-5 md:text-xl  md:text-left">
-              {information}
-            </p>
-            {/* <Link to="/ticket" className="md:p-5">
-              <button className="py-3 my-4 text-xl ticket rounded-3xl hover:bg-black  border-red-600 hover: border-2 shadow-red-600 shadow-2xl px-12 bg-red-600">
-                !!!Book Now!!!
-              </button>
-            </Link> */}
-          </div>
-        </div>
+			<div className='h-full absolute overflow-hidden w-full justify-center md:flex hidden '>
+				<img
+					className=' absolute z-20 md:translate-y-24 bottom-0 pt-12 md:h-full  w-auto'
+					src={image}
+					alt=''
+				/>
+				<div className='h-full w-1/2 bg-black md:block hidden'>
+					<div className='overflow-hidden absolute w-full h-auto'>
+						<div className='w-full speakername md:top-8 pt-6 text-center md:text-[200px] text-[70px] z-0 font-bold'>
+							{children}
+						</div>
+					</div>
+					<div className='flex flex-col md:justify-start'>
+						<p className='md:mt-80  md:w-2/3 w-full p-5 md:text-xl  md:text-left'>
+							{information}
+						</p>
+						
+					</div>
+				</div>
 
         <div className="h-full w-1/2 bg-red-600 flex-col items-end justify-end md:flex hidden">
           <p className=" p-5 w-2/3 text-4xl font-semibold text-left">
