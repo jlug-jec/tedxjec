@@ -15,6 +15,7 @@ import Infrormation from "../components/Infrormation";
 // import Test from "../components/test";
 import tedPage from "./../assets/images/tedpage.png";
 import Theme from "../components/Theme";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   useEffect(() => {
@@ -73,6 +74,8 @@ const Homepage = () => {
           <HomePageCarousal />
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

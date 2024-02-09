@@ -40,7 +40,8 @@ function HomePageCarousal() {
 
 	return (
 		<>
-			<div className='max-h-[4000px] h-full w-full pb-44'>
+			{/* pb-44 */}
+			<div className='max-h-[4000px] h-full w-full'>
 				<div className='bg-red-600 flex justify-center items-center md:h-32 h-14 w-full'>
 					<h1 className='md:text-5xl text-2xl font-bold text-white px-8 tracking-widest font-serif'>
 						SPEAKERS
