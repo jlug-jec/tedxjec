@@ -8,6 +8,8 @@ import SpeakerPage from "./pages/SpeakerPage";
 import About from "./pages/About";
 import AllSpeakers from "./pages/AllSpeakers";
 
+import banner from "./assets/images/speakers/banner-img.png";
+
 const tanuInfo =
   "Dr. Tanu Jain, who has now left her civil services job. Tanu Jain is a 2015 batch IAS officer. Tanu Jain studied at Cambridge School in Delhi and she grew up in Sadar area of the national capital. It is to be noted that Tanu Jain also studied medicine before cracking UPSC exam and becoming an IAS officer.";
 
@@ -31,7 +33,7 @@ function App() {
             <SpeakerPage
               information={tanuInfo}
               achivements={achivementsTanu}
-              image="src/assets/images/speakers/banner-img.png"
+              image={banner}
               insta="https://www.instagram.com/dr.tanujain/"
               linked="https://www.linkedin.com/in/dr-tanu-jain-4aa28a131"
               tweet="https://twitter.com/DrTanuJain1"
