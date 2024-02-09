@@ -31,7 +31,7 @@ function App() {
             <SpeakerPage
               information={tanuInfo}
               achivements={achivementsTanu}
-              image="https://tathastuics.com/assets/images/banner-img.png"
+              image="src/assets/images/speakers/banner-img.png"
               insta="https://www.instagram.com/dr.tanujain/"
               linked="https://www.linkedin.com/in/dr-tanu-jain-4aa28a131"
               tweet="https://twitter.com/DrTanuJain1"
