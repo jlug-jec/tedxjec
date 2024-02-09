@@ -6,15 +6,15 @@ import TicketPage from "./pages/TicketPage";
 import SpeakerPage from "./pages/SpeakerPage";
 
 import About from "./pages/About";
+import AllSpeakers from "./pages/AllSpeakers";
 
-const tanuInfo =
-  "The woman is Dr Tanu Jain, who has now left her civil services job. Tanu Jain is a 2015 batch IAS officer. Tanu Jain studied at Cambridge School in Delhi and she grew up in Sadar area of the national capital. It is to be noted that Tanu Jain also studied medicine before cracking UPSC exam and becoming an IAS officer.";
+const tanuInfo = "Dr. Tanu Jain, who has now left her civil services job. Tanu Jain is a 2015 batch IAS officer. Tanu Jain studied at Cambridge School in Delhi and she grew up in Sadar area of the national capital. It is to be noted that Tanu Jain also studied medicine before cracking UPSC exam and becoming an IAS officer.";
 
 const achivementsTanu = [
-  "She is a 2015 batch IAS officer.",
-  "She also studied medicine before cracking UPSC exam.",
-  "She decided to quit her job as an IAS officer and become a full-time teacher.",
-  "She has established IAS coaching named Tathastu-ICS in Delhi.",
+	"Former IAS officer of 2015 batch.",
+	"Served her excellence as Assistant Director of DRDO.",
+	"Mock Interview panelist for Civil Services Examination .",
+	"Established IAS coaching named Tathastu-ICS in Delhi.",
 ];
 
 function App() {
@@ -50,6 +50,7 @@ function App() {
       </Routes>
     </>
   );
+
 }
 
 export default App;

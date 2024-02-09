@@ -1,29 +1,21 @@
-/* eslint-disable no-unused-vars */
-import { useEffect, useRef, useState } from "react";
-import { FaArrowLeft } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
-import { Swiper, SwiperSlide } from "swiper/react";
-
+// import React from 'react'
+import { SwiperSlide } from "swiper/react";
+import { useState, useEffect } from "react";
+// import { EffectCoverflow, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import Navigations from "../components/Navigations";
 import tanuJain from "./../assets/images/speakers/tanu_jain.jpg";
-
-import { EffectCoverflow, Autoplay, Navigation } from "swiper/modules";
-import Crousel from "./Crousel";
-import { Link } from "react-router-dom";
-import Speakers from "./Speakers";
-
-const information =
-	"Tanu Jain is a 2015 batch IAS officer. After becoming an IAS officer, she continued her social service works as well as motivational speaking sessions. Recently, Tanu Jain decided to quit her job as an IAS officer and become a full-time teacher.";
-
-function HomePageCarousal() {
+// import { Link } from "react-router-dom";
+const AllSpeakers = () => {
+	// eslint-disable-next-line no-unused-vars
 	const [slides, setSlides] = useState(1);
-	const [height, setHeight] = useState(100);
 	const screenWidth = window.innerWidth;
-
+	// eslint-disable-next-line no-unused-vars
+	const [height, setHeight] = useState(100);
 	useEffect(() => {
 		if (screenWidth < 768) {
 			setSlides(1);
@@ -34,36 +26,16 @@ function HomePageCarousal() {
 		}
 	}, [screenWidth]);
 
-	// Create refs for navigation buttons
-	const prevButtonRef = useRef(null);
-	const nextButtonRef = useRef(null);
-
 	return (
 		<>
-			{/* pb-44 */}
-			<div className='max-h-[4000px] h-full w-full'>
-				<div className='bg-red-600 flex justify-center items-center md:h-32 h-14 w-full'>
+			<Navigations />
+			<div>
+				<div className='bg-red-600 flex justify-center items-center md:h-32 h-14 w-full md:mt-4 mt-6'>
 					<h1 className='md:text-5xl text-2xl font-bold text-white px-8 tracking-widest font-serif'>
 						SPEAKERS
 					</h1>
 				</div>
-
-				<Swiper
-					className='flex items-center flex-row justify-center'
-					effect={"coverflow"}
-					grabCursor={true}
-					centeredSlides={true}
-					loop={true}
-					slidesPerView={slides}
-					coverflowEffect={{
-						rotate: 0,
-						stretch: 0,
-						depth: 100,
-						modifier: 2.5,
-					}}
-					navigation={true}
-					modules={[EffectCoverflow, Autoplay, Navigation]}
-				>
+		
 					{/* <Speakers
 						key={1}
 						profilePic={tanuJain}
@@ -214,26 +186,15 @@ function HomePageCarousal() {
 										<h1 className='md:block hidden mt-2'>
 											Date : 15 february
 										</h1>
-
-										<Link to='/tanujain'>
-											<button className='button w-full mt-1 mb-3'>
-												<span className='button_lg'>
-													<span className='button_sl' />
-													<span className='button_text'>
-														More Information
-													</span>
-												</span>
-											</button>
-										</Link>
 									</div>
 								</div>
 							</div>
 						</div>
 					</SwiperSlide>
 
-					{/* <SwiperSlide className='flex justify-center'>
+					<SwiperSlide className='flex justify-center'>
 						<div className='flex flex-col justify-center md:mb-10 pb-7 '>
-							<div className='h-[460px] rounded-full w-[850px] absolute z-0 bg-red-600'></div>
+							<div className='h-[460px] rounded-full w-[850px] absolute z-0 bg-red-600 md:block hidden'></div>
 							<div className='md:h-[450px]  md:w-[850px] z-10 flex md:gap-44 md:my-12 my-8 md:mx-0 mx-3  border-2 border-red-600 rounded-2xl relative'>
 								<div className='md:w-[850px] flex md:gap-4 rounded-2xl bg-zinc-900 p-3 md:flex-row flex-col'>
 									<div className='overflow-hidden rounded-xl md:w-1/2 md:none md:block hidden'>
@@ -341,26 +302,15 @@ function HomePageCarousal() {
 										<h1 className='md:block hidden mt-2'>
 											Date : 15 february
 										</h1>
-
-										<Link to='/tanujain'>
-											<button className='button w-full mt-1 mb-3'>
-												<span className='button_lg'>
-													<span className='button_sl' />
-													<span className='button_text'>
-														More Information
-													</span>
-												</span>
-											</button>
-										</Link>
 									</div>
 								</div>
 							</div>
 						</div>
-					</SwiperSlide> */}
-				</Swiper>
+					</SwiperSlide>
+
 			</div>
 		</>
 	);
-}
+};
 
-export default HomePageCarousal;
+export default AllSpeakers;
