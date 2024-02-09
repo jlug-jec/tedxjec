@@ -4,14 +4,25 @@ const Navigation = () => {
 
   return (
     <div>
+      <input
+        type="checkbox"
+        className="navigation__checkbox invisible"
+        id="navi-toggle"
+      />
+      {/* {flag ? <i className="fa-solid fa-bars text-white h-5"></i> : <i className="fa-solid fa-xmark z-[2000]"></i>} */}
 
-      <input type="checkbox" className="navigation__checkbox invisible" id="navi-toggle" />
-        {/* {flag ? <i className="fa-solid fa-bars text-white h-5"></i> : <i className="fa-solid fa-xmark z-[2000]"></i>} */}
-
-      <label htmlFor="navi-toggle" className="navigation__button flex justify-center items-center" onClick={() => setFlag(currFlag => !currFlag)}>
+      <label
+        htmlFor="navi-toggle"
+        className="navigation__button flex justify-center items-center"
+        onClick={() => setFlag((currFlag) => !currFlag)}
+      >
         {/* <span className="navigation__icon">&nbsp;</span> */}
         {/* <i className="fa-solid fa-bars z-[10000] text-black" ></i> */}
-        {flag ? <i className="fa-solid fa-bars z-[10000] text-black" ></i> : <i className="fa-solid fa-xmark z-[10000] text-black"></i>}
+        {flag ? (
+          <i className="fa-solid fa-bars z-[10000] text-black"></i>
+        ) : (
+          <i className="fa-solid fa-xmark z-[10000] text-black"></i>
+        )}
         {/* {flag ? <h1>Allli</h1> : <h1>Pyaaz</h1>} */}
       </label>
 
@@ -30,7 +41,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className="navigation__item">
-            <a href="./speakers" className="navigation__link md:text-3xl text-sm">
+            <a href="./" className="navigation__link md:text-3xl text-sm">
               <span>03</span>Speakers
             </a>
           </li>
