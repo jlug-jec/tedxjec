@@ -555,11 +555,11 @@ hr {
 
 
 .img-bg{
-  background-image: url(./assets/images/speakers/tanu_jain.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    background-image: url(./assets/images/speakers/tanu_jain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .img-bghover:hover{
   transform: scale(1.05);
   transition-duration: 0.3s;
@@ -569,38 +569,47 @@ hr {
   transition-duration: 0.3s;
 }
 .img-bg2{
-  background-image: url(https://images.unsplash.com/photo-1617630667642-8250e0371c95?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.img-bg3{
-  background-image: url(https://images.unsplash.com/photo-1676749511580-03d132efa840?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.img-bg4{
-  background-image: url(https://images.unsplash.com/photo-1672825464619-79acee9f7e29?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
+    background-image: url(https://www.brahmos.com/images/gallery/sudhir-mishra-1-aug-2014.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
-.img-bg5{
-  background-image: url(https://images.unsplash.com/photo-1689886052253-8f6856815b54?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.img-bg6{
-  background-image: url(https://images.unsplash.com/photo-1704570249452-c45247dd2b6e?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .img-bg3{
+    background-image: url(./assets/images/speakers/dd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-bg4{
+    background-image: url(./assets/images/speakers/ssg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+    
+  .img-bg5{
+    background-image: url(./assets/images/speakers/pp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-bg6{
+    background-image: url(./assets/images/speakers/nm.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-bg7{
+    background-image: url(./assets/images/speakers/vs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 
   
   .button {
@@ -721,6 +730,3 @@ hr {
   .button:hover .button_lg::after {
     background-color: #fff;
   }
-  
-
-
